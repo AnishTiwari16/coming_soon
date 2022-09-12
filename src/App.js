@@ -45,7 +45,9 @@ function App() {
                 <section className="hchange">
                     <div className="container itms">
                         <div className="agg">
-                            <h1>Coming Soon</h1>
+                            <h1>
+                                We're <span>Launching</span> Soon
+                            </h1>
                         </div>
                     </div>
                     <img className="rocket" src={rocket} />
