@@ -56,3 +56,9 @@
 .agg{
   margin-top: 25vh;
 }
+@media (max-width: 991px) 
+{
+  .hchange{
+    min-height: 100vh;
+  }
+}
