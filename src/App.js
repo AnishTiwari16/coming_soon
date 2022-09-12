@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import linkedinImg from '../src/linkedin.svg';
 import rocket from '../src/rocket.png';
