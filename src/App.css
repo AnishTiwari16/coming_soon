@@ -11,7 +11,7 @@
   src: url(../assets/fonts/BinancePlexRegular.ttf);
 } */
 .hchange{
-  min-height: 89.3vh;
+  min-height: 89vh;
   background-color: #343A40;
 }
 .hchange h1{
@@ -20,7 +20,7 @@
   font-family: font-Medium;
 }
 .hg{
-  min-height: 10vh;
+  min-height: 11vh;
 }
 .rr{
   min-height: 100vh; 
@@ -58,7 +58,7 @@
 }
 @media (max-width: 991px) 
 {
-  .hchange{
-    min-height: 90vh;
+  .rr{
+    min-height: 100vh;
   }
 }
