@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import linkedinImg from '../src/linkedin.svg';
+import rocket from '../src/rocket.png';
 function App() {
     return (
         <section className="rr">
@@ -9,7 +10,7 @@ function App() {
                     <nav class=" hg navbar navbar-expand-lg navbar-light bg-dark">
                         <div className="container">
                             <a class="navbar-brand" href="#">
-                                Navbar
+                                <h3 className="changeText">LiTt</h3>
                             </a>
                             <button
                                 class="navbar-toggler"
@@ -42,9 +43,12 @@ function App() {
                     </nav>
                 </header>
                 <section className="hchange">
-                    <div className="container">
-                        <h1>Coming Soon</h1>
+                    <div className="container itms">
+                        <div className="agg">
+                            <h1>Coming Soon</h1>
+                        </div>
                     </div>
+                    <img className="rocket" src={rocket} />
                 </section>
             </div>
         </section>

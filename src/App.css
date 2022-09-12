@@ -1,14 +1,55 @@
+@font-face {
+  font-family: font-Medium;
+  src: url(../src/fonts/BinancePlex-Medium.ttf);
+}
+/* @font-face {
+  font-family: font-SemiBold;
+  src: url(../assets/fonts/BinancePlex-SemiBold.ttf);
+}
+@font-face {
+  font-family: font-Regular;
+  src: url(../assets/fonts/BinancePlexRegular.ttf);
+} */
 .hchange{
   min-height: 90vh;
-  background-color: black;
+  background-color: #343A40;
 }
 .hchange h1{
   color: #FFFFFF;
   font-size: 5rem;
+  font-family: font-Medium;
 }
 .hg{
   min-height: 10vh;
 }
 .rr{
   min-height: 100vh; 
+}
+.changeText{
+  color: #FFFFFF;
+}
+.itms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rocket{
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: rocket 4s linear infinite
+}
+@keyframes rocket{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  100%{
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+.agg{
+  margin-top: 25vh;
 }
